@@ -1,17 +1,17 @@
 {
-  "name": "semantic-ui",
-  "version": "2.2.1",
+  "name": "eng-semantic-ui",
+  "version": "2.2.1-calendar",
   "title": "Semantic UI",
   "description": "Semantic empowers designers and developers by creating a shared vocabulary for UI.",
   "homepage": "http://www.semantic-ui.com",
-  "author": "Jack Lukic <jack@semantic-ui.com>",
+  "author": "smartm0use",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Semantic-Org/Semantic-UI.git"
+    "url": "git@github.com:smartm0use/Semantic-UI.git"
   },
   "bugs": {
-    "url": "https://github.com/Semantic-Org/Semantic-UI/issues"
+    "url": "https://github.com/smartm0use/Semantic-UI/issues"
   },
   "scripts": {
     "install": "gulp install"
@@ -94,5 +94,10 @@
     "gulp-tap": "*",
     "merge-stream": "*"
   },
-  "style": "dist/semantic.css"
+  "style": "dist/semantic.css",
+  "main": "gulpfile.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  }
 }
