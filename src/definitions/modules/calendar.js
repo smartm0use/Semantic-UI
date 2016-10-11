@@ -536,7 +536,7 @@
               date = module.helper.dateInRange(date);
 
               var text = formatter.datetime(date, settings);
-              if (fireChange && settings.onChange.call(element, date, text) === false) {
+              if (fireChange && settings.onChange.call(element, date, text, updateInput) === false) {
                 return false;
               }
 
@@ -1214,7 +1214,7 @@
     },
 
     // callback when date changes, return false to cancel the change
-    onChange: function (date, text) {
+    onChange: function (date, text, updateInput) {
       return true;
     },
 
