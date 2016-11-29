@@ -1,5 +1,5 @@
 /*
- * # Semantic UI 2.2.1 - Calendar
+ * # Semantic UI undefined - Calendar
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -536,7 +536,7 @@
               date = module.helper.dateInRange(date);
 
               var text = formatter.datetime(date, settings);
-              if (fireChange && settings.onChange.call(element, date, text) === false) {
+              if (fireChange && settings.onChange.call(element, date, text, updateInput) === false) {
                 return false;
               }
 
@@ -696,7 +696,7 @@
             isDateInRange: function (date, mode, minDate, maxDate) {
               if (!minDate && !maxDate) {
                 var startDate = module.get.startDate();
-                minDate = startDate && settings.minDate ? Math.max(startDate, settings.minDate) : startDate || settings.minDate;
+                minDate = startDate && settings.minDate ? new Date(Math.max(startDate, settings.minDate)) : startDate || settings.minDate;
                 maxDate = settings.maxDate;
               }
               return !(!date ||
@@ -706,7 +706,7 @@
             dateInRange: function (date, minDate, maxDate) {
               if (!minDate && !maxDate) {
                 var startDate = module.get.startDate();
-                minDate = startDate && settings.minDate ? Math.max(startDate, settings.minDate) : startDate || settings.minDate;
+                minDate = startDate && settings.minDate ? new Date(Math.max(startDate, settings.minDate)) : startDate || settings.minDate;
                 maxDate = settings.maxDate;
               }
               var isTimeOnly = settings.type === 'time';
@@ -1214,7 +1214,7 @@
     },
 
     // callback when date changes, return false to cancel the change
-    onChange: function (date, text) {
+    onChange: function (date, text, updateInput) {
       return true;
     },
 

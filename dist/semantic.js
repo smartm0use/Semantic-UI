@@ -1,5 +1,5 @@
  /*
- * # Semantic UI - 2.2.1
+ * # Semantic UI - 
  * https://github.com/Semantic-Org/Semantic-UI
  * http://www.semantic-ui.com/
  *
@@ -9,7 +9,7 @@
  *
  */
 /*!
- * # Semantic UI 2.2.1 - Site
+ * # Semantic UI undefined - Site
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -498,7 +498,7 @@ $.extend($.expr[ ":" ], {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.1 - Form Validation
+ * # Semantic UI undefined - Form Validation
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -2051,7 +2051,7 @@ $.fn.form.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.1 - Accordion
+ * # Semantic UI undefined - Accordion
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -2662,7 +2662,7 @@ $.extend( $.easing, {
 
 
 /*
- * # Semantic UI 2.2.1 - Calendar
+ * # Semantic UI undefined - Calendar
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -3199,7 +3199,7 @@ $.extend( $.easing, {
               date = module.helper.dateInRange(date);
 
               var text = formatter.datetime(date, settings);
-              if (fireChange && settings.onChange.call(element, date, text) === false) {
+              if (fireChange && settings.onChange.call(element, date, text, updateInput) === false) {
                 return false;
               }
 
@@ -3359,7 +3359,7 @@ $.extend( $.easing, {
             isDateInRange: function (date, mode, minDate, maxDate) {
               if (!minDate && !maxDate) {
                 var startDate = module.get.startDate();
-                minDate = startDate && settings.minDate ? Math.max(startDate, settings.minDate) : startDate || settings.minDate;
+                minDate = startDate && settings.minDate ? new Date(Math.max(startDate, settings.minDate)) : startDate || settings.minDate;
                 maxDate = settings.maxDate;
               }
               return !(!date ||
@@ -3369,7 +3369,7 @@ $.extend( $.easing, {
             dateInRange: function (date, minDate, maxDate) {
               if (!minDate && !maxDate) {
                 var startDate = module.get.startDate();
-                minDate = startDate && settings.minDate ? Math.max(startDate, settings.minDate) : startDate || settings.minDate;
+                minDate = startDate && settings.minDate ? new Date(Math.max(startDate, settings.minDate)) : startDate || settings.minDate;
                 maxDate = settings.maxDate;
               }
               var isTimeOnly = settings.type === 'time';
@@ -3877,7 +3877,7 @@ $.extend( $.easing, {
     },
 
     // callback when date changes, return false to cancel the change
-    onChange: function (date, text) {
+    onChange: function (date, text, updateInput) {
       return true;
     },
 
@@ -3944,7 +3944,7 @@ $.extend( $.easing, {
 })(jQuery, window, document);
 
 /*!
- * # Semantic UI 2.2.1 - Checkbox
+ * # Semantic UI undefined - Checkbox
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -4776,7 +4776,7 @@ $.fn.checkbox.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.1 - Dimmer
+ * # Semantic UI undefined - Dimmer
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -5488,7 +5488,7 @@ $.fn.dimmer.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.1 - Dropdown
+ * # Semantic UI undefined - Dropdown
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -9206,7 +9206,7 @@ $.fn.dropdown.settings.templates = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.1 - Embed
+ * # Semantic UI undefined - Embed
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -9903,7 +9903,7 @@ $.fn.embed.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.1 - Modal
+ * # Semantic UI undefined - Modal
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -10811,7 +10811,7 @@ $.fn.modal.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.1 - Nag
+ * # Semantic UI undefined - Nag
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -11319,7 +11319,7 @@ $.extend( $.easing, {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.1 - Popup
+ * # Semantic UI undefined - Popup
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -12793,7 +12793,7 @@ $.fn.popup.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.1 - Progress
+ * # Semantic UI undefined - Progress
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -13704,7 +13704,7 @@ $.fn.progress.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.1 - Rating
+ * # Semantic UI undefined - Rating
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -14213,7 +14213,7 @@ $.fn.rating.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.1 - Search
+ * # Semantic UI undefined - Search
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -14989,7 +14989,9 @@ $.fn.search = function(parameters) {
                   module.inject.result(result, resultIndex, categoryIndex);
                   resultIndex++;
                 });
-                categoryIndex++;
+                if(resultIndex!==0) {
+                  categoryIndex++;
+                }
               });
             }
             else {
@@ -15612,7 +15614,7 @@ $.fn.search.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.1 - Shape
+ * # Semantic UI undefined - Shape
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -16522,7 +16524,7 @@ $.fn.shape.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.1 - Sidebar
+ * # Semantic UI undefined - Sidebar
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -17559,7 +17561,7 @@ $.fn.sidebar.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.1 - Sticky
+ * # Semantic UI undefined - Sticky
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -18496,7 +18498,7 @@ $.fn.sticky.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.1 - Tab
+ * # Semantic UI undefined - Tab
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -19425,7 +19427,7 @@ $.fn.tab.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.1 - Transition
+ * # Semantic UI undefined - Transition
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -20516,7 +20518,7 @@ $.fn.transition.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.1 - API
+ * # Semantic UI undefined - API
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -21684,7 +21686,7 @@ $.api.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.1 - State
+ * # Semantic UI undefined - State
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -22393,7 +22395,7 @@ $.fn.state.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.1 - Visibility
+ * # Semantic UI undefined - Visibility
  * http://github.com/semantic-org/semantic-ui/
  *
  *

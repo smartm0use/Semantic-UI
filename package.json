@@ -13,9 +13,6 @@
   "bugs": {
     "url": "https://github.com/smartm0use/Semantic-UI/issues"
   },
-  "scripts": {
-    "install": "gulp install"
-  },
   "peerDependencies": {
     "better-console": "*",
     "del": "*",

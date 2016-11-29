@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.1 - Search
+ * # Semantic UI undefined - Search
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -775,7 +775,9 @@ $.fn.search = function(parameters) {
                   module.inject.result(result, resultIndex, categoryIndex);
                   resultIndex++;
                 });
-                categoryIndex++;
+                if(resultIndex!==0) {
+                  categoryIndex++;
+                }
               });
             }
             else {
