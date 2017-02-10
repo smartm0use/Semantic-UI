@@ -1,11 +1,17 @@
 {
-  "name"        : "semantic",
+  "name"        : "eng-semantic",
   "description" : "Semantic empowers designers and developers by creating a shared vocabulary for UI.",
   "homepage"    : "http://www.semantic-ui.com",
-  "author": {
-    "name" : "Jack Lukic",
-    "web"  : "http://www.jacklukic.com"
-  },
+  "authors": [
+    {
+      "name" : "Jack Lukic",
+      "web"  : "http://www.jacklukic.com"
+    },
+    {
+      "name" : "Fabio Siliberto",
+      "email"  : "fabio.siliberto@gmail.com"
+    }
+  ],
   "dependencies": {
     "jquery"      : ">=1.8"
   },

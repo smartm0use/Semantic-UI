@@ -1,20 +1,23 @@
 {
-  "name": "semantic-ui",
+  "name": "eng-semantic-ui",
   "version": "2.2.7",
   "title": "Semantic UI",
   "description": "Semantic empowers designers and developers by creating a shared vocabulary for UI.",
   "homepage": "http://www.semantic-ui.com",
   "author": "Jack Lukic <jack@semantic-ui.com>",
+  "contributors": [
+    {
+      "name": "Fabio Siliberto",
+      "email": "fabio.siliberto@gmail.com"
+    }
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Semantic-Org/Semantic-UI.git"
+    "url": "https://github.com/ArturoRis/Semantic-UI"
   },
   "bugs": {
-    "url": "https://github.com/Semantic-Org/Semantic-UI/issues"
-  },
-  "scripts": {
-    "install": "gulp install"
+    "url": "https://github.com/ArturoRis/Semantic-UI/issues"
   },
   "peerDependencies": {
     "better-console": "*",
