@@ -784,7 +784,9 @@ $.fn.search = function(parameters) {
                   module.inject.result(result, resultIndex, categoryIndex);
                   resultIndex++;
                 });
-                categoryIndex++;
+                if(resultIndex !== 0) {
+                  categoryIndex++;
+                }
               });
             }
             else {
