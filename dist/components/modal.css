@@ -75,7 +75,7 @@
 
 .ui.modal > .header {
   display: block;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   background: #FFFFFF;
   margin: 0em;
   padding: 1.25rem 1.5rem;
@@ -159,7 +159,7 @@
   padding-left: 2em;
 }
 /*rtl:ignore*/
-.ui.modal > .content > .image > i.icon {
+.ui.modal > .content > .image > .icon {
   margin: 0em;
   opacity: 1;
   width: auto;
@@ -258,7 +258,7 @@
     text-align: center;
     padding: 0rem 0rem 1rem !important;
   }
-  .ui.modal > .content > .image > i.icon {
+  .ui.modal > .content > .image > .icon {
     font-size: 5rem;
     text-align: center;
   }

@@ -34,7 +34,7 @@
   text-transform: none;
 }
 
-i.icon {
+.ifix.icon {
   display: inline-block;
   opacity: @opacity;
 
@@ -56,7 +56,7 @@ i.icon {
   backface-visibility: hidden;
 }
 
-i.icon:before {
+.ifix.icon:before {
   background: none !important;
 }
 
@@ -68,7 +68,7 @@ i.icon:before {
     Loading
 ---------------*/
 
-i.icon.loading {
+.ifix.icon.loading {
   height: 1em;
   line-height: 1;
   animation: icon-loading @loadingDuration linear infinite;
@@ -86,11 +86,11 @@ i.icon.loading {
              States
 *******************************/
 
-i.icon.hover {
+.ifix.icon.hover {
   opacity: 1 !important;
 }
 
-i.icon.active {
+.ifix.icon.active {
   opacity: 1 !important;
 }
 
@@ -387,45 +387,45 @@ i.inverted.circular.black.icon {
         Sizes
 --------------------*/
 
-i.mini.icon,
-i.mini.icons {
+.ifix.mini.icon,
+.ifix.mini.icons {
   line-height: 1;
   font-size: @mini;
 }
-i.tiny.icon,
-i.tiny.icons {
+.ifix.tiny.icon,
+.ifix.tiny.icons {
   line-height: 1;
   font-size: @tiny;
 }
-i.small.icon,
-i.small.icons {
+.ifix.small.icon,
+.ifix.small.icons {
   line-height: 1;
   font-size: @small;
 }
-i.icon,
-i.icons {
+.ifix.icon,
+.ifix.icons {
   font-size: @medium;
 }
-i.large.icon,
-i.large.icons {
+.ifix.large.icon,
+.ifix.large.icons {
   line-height: 1;
   vertical-align: middle;
   font-size: @large;
 }
-i.big.icon,
-i.big.icons {
+.ifix.big.icon,
+.ifix.big.icons {
   line-height: 1;
   vertical-align: middle;
   font-size: @big;
 }
-i.huge.icon,
-i.huge.icons {
+.ifix.huge.icon,
+.ifix.huge.icons {
   line-height: 1;
   vertical-align: middle;
   font-size: @huge;
 }
-i.massive.icon,
-i.massive.icons {
+.ifix.massive.icon,
+.ifix.massive.icons {
   line-height: 1;
   vertical-align: middle;
   font-size: @massive;
@@ -435,13 +435,13 @@ i.massive.icons {
             Groups
 *******************************/
 
-i.icons {
+.ifix.icons {
   display: inline-block;
   position: relative;
   line-height: 1;
 }
 
-i.icons .icon {
+.ifix.icons .icon {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -450,7 +450,7 @@ i.icons .icon {
   margin: 0;
 }
 
-i.icons .icon:first-child {
+.ifix.icons .icon:first-child {
   position: static;
   width: auto;
   height: auto;
@@ -460,7 +460,7 @@ i.icons .icon:first-child {
 }
 
 /* Corner Icon */
-i.icons .corner.icon {
+.icons .corner.icon {
   top: auto;
   left: auto;
   right: 0;
@@ -470,7 +470,7 @@ i.icons .corner.icon {
   text-shadow: @cornerIconShadow;
 }
 
-i.icons .inverted.corner.icon {
+.icons .inverted.corner.icon {
   text-shadow: @cornerIconInvertedShadow;
 }
 

@@ -107,7 +107,7 @@
        Loading
 ---------------------*/
 
-.ui.loading.loading.input > i.icon:before {
+.ui.loading.loading.input > .icon:before {
   position: absolute;
   content: '';
   top: 50%;
@@ -120,7 +120,7 @@
   border-radius: @circularRadius;
   border: @loaderLineWidth solid @loaderFillColor;
 }
-.ui.loading.loading.input > i.icon:after {
+.ui.loading.loading.input > .icon:after {
   position: absolute;
   content: '';
   top: 50%;
@@ -219,7 +219,7 @@
 }
 
 /* Transparent Icon */
-.ui.transparent.icon.input > i.icon {
+.ui.transparent.icon.input > .icon {
   width: @transparentIconWidth;
 }
 .ui.transparent.icon.input > input {
@@ -254,7 +254,7 @@
          Icon
 ---------------------*/
 
-.ui.icon.input > i.icon {
+.ui.icon.input > .icon {
   cursor: default;
   position: absolute;
   line-height: 1;
@@ -269,15 +269,15 @@
   border-radius: 0em @borderRadius @borderRadius 0em;
   transition: @iconTransition;
 }
-.ui.icon.input > i.icon:not(.link) {
+.ui.icon.input > .icon:not(.link) {
   pointer-events: none;
 }
 .ui.icon.input input {
   padding-right: @iconMargin !important;
 }
 
-.ui.icon.input > i.icon:before,
-.ui.icon.input > i.icon:after {
+.ui.icon.input > .icon:before,
+.ui.icon.input > .icon:after {
   left: 0;
   position: absolute;
   text-align: center;
@@ -294,7 +294,7 @@
 }
 
 /* Left Icon Input */
-.ui[class*="left icon"].input > i.icon {
+.ui[class*="left icon"].input > .icon {
   right: auto;
   left: @borderWidth;
   border-radius: @borderRadius 0em 0em @borderRadius;
@@ -309,7 +309,7 @@
 }
 
 /* Focus */
-.ui.icon.input > input:focus ~ i.icon {
+.ui.icon.input > input:focus ~ .icon {
   opacity: 1;
 }
 
