@@ -93,7 +93,7 @@ ol.ui.list ol li,
 
 /* Icon */
 .ui.list .list > .item > i.icon,
-.ui.list > .item > i.icon {
+.ui.list > .item > .ifix.icon {
   display: table-cell;
   margin: 0em;
   padding-top: 0.07142857em;
@@ -190,7 +190,7 @@ ol.ui.list ol li,
 
 /* Linked Item Icons */
 .ui.list .list > a.item i.icon,
-.ui.list > a.item i.icon {
+.ui.list > a.item .ifix.icon {
   color: rgba(0, 0, 0, 0.4);
 }
 
@@ -296,7 +296,7 @@ ol.ui.list ol li,
 }
 
 /* Horizontal List */
-.ui.horizontal.list > .item > i.icon {
+.ui.horizontal.list > .item > .ifix.icon {
   margin: 0em;
   padding: 0em 0.25em 0em 0em;
 }

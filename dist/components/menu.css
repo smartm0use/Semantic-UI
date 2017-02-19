@@ -131,7 +131,7 @@
       Icons
 ---------------*/
 
-.ui.menu .item > i.icon {
+.ui.menu .item > .ifix.icon {
   opacity: 0.9;
   float: none;
   margin: 0em 0.35714286em 0em 0em;
@@ -430,7 +430,7 @@
   font-weight: normal;
   box-shadow: none;
 }
-.ui.menu .active.item > i.icon {
+.ui.menu .active.item > .ifix.icon {
   opacity: 1;
 }
 
@@ -529,12 +529,12 @@ Floated Menu / Item
 
 /*--- Icon ---*/
 
-.ui.vertical.menu .item > i.icon {
+.ui.vertical.menu .item > .ifix.icon {
   width: 1.18em;
   float: right;
   margin: 0em 0em 0em 0.5em;
 }
-.ui.vertical.menu .item > .label + i.icon {
+.ui.vertical.menu .item > .label + .ifix.icon {
   float: none;
   margin: 0em 0.5em 0em 0em;
 }
@@ -760,7 +760,7 @@ Floated Menu / Item
   min-width: 3em;
   text-align: center;
 }
-.ui.pagination.menu .icon.item i.icon {
+.ui.pagination.menu .icon.item .ifix.icon {
   vertical-align: top;
 }
 
@@ -1086,7 +1086,7 @@ Floated Menu / Item
   padding-left: 0em;
   padding-right: 0em;
 }
-.ui.vertical.text.menu .item > i.icon {
+.ui.vertical.text.menu .item > .ifix.icon {
   float: none;
   margin: 0em 0.35714286em 0em 0em;
 }

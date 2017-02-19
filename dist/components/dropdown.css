@@ -762,7 +762,7 @@ select.ui.dropdown {
        Loading
 ---------------------*/
 
-.ui.loading.dropdown > i.icon {
+.ui.loading.dropdown > .ifix.icon {
   height: 1em !important;
   padding: 1.14285714em 1.07142857em !important;
 }

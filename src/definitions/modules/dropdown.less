@@ -767,11 +767,11 @@ select.ui.dropdown {
        Loading
 ---------------------*/
 
-.ui.loading.dropdown > i.icon {
+.ui.loading.dropdown > .ifix.icon{
   height: @relative14px !important;
   padding: @relative16px @relative15px !important;
 }
-.ui.loading.dropdown > i.icon:before {
+.ui.loading.dropdown >.ifix.icon:before {
   position: absolute;
   content: '';
   top: 50%;
@@ -784,7 +784,7 @@ select.ui.dropdown {
   border-radius: @circularRadius;
   border: @loaderLineWidth solid @loaderFillColor;
 }
-.ui.loading.dropdown > i.icon:after {
+.ui.loading.dropdown >.ifix.icon:after {
   position: absolute;
   content: '';
   top: 50%;
@@ -806,8 +806,8 @@ select.ui.dropdown {
 }
 
 /* Coupling */
-.ui.loading.dropdown.button > i.icon:before,
-.ui.loading.dropdown.button > i.icon:after {
+.ui.loading.dropdown.button >.ifix.icon:before,
+.ui.loading.dropdown.button >.ifix.icon:after {
   display: none;
 }
 
