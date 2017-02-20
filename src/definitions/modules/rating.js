@@ -496,7 +496,7 @@ $.fn.rating.settings = {
         html = ''
       ;
       while(icon <= maxRating) {
-        html += '<i class="icon"></i>';
+        html += '<span class="ifix icon"></span>';
         icon++;
       }
       return html;
