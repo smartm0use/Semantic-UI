@@ -92,7 +92,7 @@ ol.ui.list ol li,
 }
 
 /* Icon */
-.ui.list .list > .item > i.icon,
+.ui.list .list > .item > .ifix.icon,
 .ui.list > .item > .ifix.icon {
   display: table-cell;
   margin: 0em;
@@ -102,8 +102,8 @@ ol.ui.list ol li,
   -webkit-transition: color 0.1s ease;
   transition: color 0.1s ease;
 }
-.ui.list .list > .item > i.icon:only-child,
-.ui.list > .item > i.icon:only-child {
+.ui.list .list > .item > .ifix.icon:only-child,
+.ui.list > .item > .ifix.icon:only-child {
   display: inline-block;
   vertical-align: top;
 }
@@ -189,7 +189,7 @@ ol.ui.list ol li,
 }
 
 /* Linked Item Icons */
-.ui.list .list > a.item i.icon,
+.ui.list .list > a.item.ifix.icon,
 .ui.list > a.item .ifix.icon {
   color: rgba(0, 0, 0, 0.4);
 }

@@ -209,7 +209,7 @@
 
 
 /* Dropdown Icon */
-.ui.menu .item > i.dropdown.icon {
+.ui.menu .item > .ifix.dropdown.icon {
   padding: 0em;
   float: right;
   margin: 0em 0em 0em 1em;

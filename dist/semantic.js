@@ -7889,7 +7889,7 @@ $.fn.dropdown.settings.templates = {
       values      = select.values || {},
       html        = ''
     ;
-    html +=  '<i class="dropdown icon"></i>';
+    html +=  '<span class="ifix dropdown icon"></span>';
     if(select.placeholder) {
       html += '<div class="default text">' + placeholder + '</div>';
     }
@@ -7931,7 +7931,7 @@ $.fn.dropdown.settings.templates = {
 
   // generates label for multiselect
   label: function(value, text) {
-    return text + '<i class="delete icon"></i>';
+    return text + '<span class="ifix delete icon"></span>';
   },
 
 
@@ -8625,7 +8625,7 @@ $.fn.embed.settings = {
         html = ''
       ;
       if(icon) {
-        html += '<i class="' + icon + ' icon"></i>';
+        html += '<span class="ifix ' + icon + ' icon"></span>';
       }
       if(image) {
         html += '<img class="placeholder" src="' + image + '">';
@@ -12974,7 +12974,7 @@ $.fn.rating.settings = {
         html = ''
       ;
       while(icon <= maxRating) {
-        html += '<i class="icon"></i>';
+        html += '<span class="ifix icon"></span>';
         icon++;
       }
       return html;

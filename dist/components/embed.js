@@ -674,7 +674,7 @@ $.fn.embed.settings = {
         html = ''
       ;
       if(icon) {
-        html += '<i class="' + icon + ' icon"></i>';
+        html += '<span class="ifix ' + icon + ' icon"></span>';
       }
       if(image) {
         html += '<img class="placeholder" src="' + image + '">';

@@ -766,7 +766,7 @@ select.ui.dropdown {
   height: 1em !important;
   padding: 1.14285714em 1.07142857em !important;
 }
-.ui.loading.dropdown > i.icon:before {
+.ui.loading.dropdown > .ifix.icon:before {
   position: absolute;
   content: '';
   top: 50%;
@@ -777,7 +777,7 @@ select.ui.dropdown {
   border-radius: 500rem;
   border: 0.2em solid rgba(0, 0, 0, 0.1);
 }
-.ui.loading.dropdown > i.icon:after {
+.ui.loading.dropdown > .ifix.icon:after {
   position: absolute;
   content: '';
   top: 50%;
@@ -797,8 +797,8 @@ select.ui.dropdown {
 }
 
 /* Coupling */
-.ui.loading.dropdown.button > i.icon:before,
-.ui.loading.dropdown.button > i.icon:after {
+.ui.loading.dropdown.button > .ifix.icon:before,
+.ui.loading.dropdown.button > .ifix.icon:after {
   display: none;
 }
 @-webkit-keyframes dropdown-spin {

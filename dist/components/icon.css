@@ -120,14 +120,14 @@
 --------------------*/
 
 .ifix.link.icon,
-i.link.icons {
+.ifix.link.icons {
   cursor: pointer;
   opacity: 0.8;
   -webkit-transition: opacity 0.1s ease;
   transition: opacity 0.1s ease;
 }
 .ifix.link.icon:hover,
-i.link.icons:hover {
+.ifix.link.icons:hover {
   opacity: 1 !important;
 }
 
