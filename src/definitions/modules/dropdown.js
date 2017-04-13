@@ -319,7 +319,10 @@ $.fn.dropdown = function(parameters) {
               module.verbose('Adding search input');
               $search = $('<input />')
                 .addClass(className.search)
-                .prop('autocomplete', 'off')
+                .prop({
+                  'autocomplete': 'off',
+                  'title': 'search'
+                })
                 .insertBefore($text)
               ;
             }
