@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.7 - Dropdown
+ * # Semantic UI 2.2.7-1 - Dropdown
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -319,7 +319,10 @@ $.fn.dropdown = function(parameters) {
               module.verbose('Adding search input');
               $search = $('<input />')
                 .addClass(className.search)
-                .prop('autocomplete', 'off')
+                .prop({
+                  'autocomplete': 'off',
+                  'title': 'search'
+                })
                 .insertBefore($text)
               ;
             }
