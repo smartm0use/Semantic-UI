@@ -874,9 +874,7 @@ $.fn.dropdown = function(parameters) {
           var
             $currentlySelected = $item.not(className.filtered).filter('.' + className.selected).eq(0),
             $activeItem        = $item.not(className.filtered).filter('.' + className.active).eq(0),
-            $selectedItem      = ($currentlySelected.length > 0)
-              ? $currentlySelected
-              : $activeItem,
+            $selectedItem      = $activeItem,
             hasSelected = ($selectedItem.length > 0)
           ;
           if(hasSelected) {
