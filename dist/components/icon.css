@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.7-1 - Icon
+ * # Semantic UI 2.2.7-2 - Icon
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -97,7 +97,7 @@
   opacity: 1 !important;
 }
 .ifix.disabled.icon {
-  opacity: 0.45 !important;
+  opacity: 0.2 !important;
 }
 
 
@@ -295,14 +295,14 @@
 
 /* Blue */
 .ifix.blue.icon {
-  color: #2185D0 !important;
+  color: #6484A3 !important;
 }
 .ifix.inverted.blue.icon {
   color: #54C8FF !important;
 }
 .ifix.inverted.bordered.blue.icon,
 .ifix.inverted.circular.blue.icon {
-  background-color: #2185D0 !important;
+  background-color: #6484A3 !important;
   color: #FFFFFF !important;
 }
 
