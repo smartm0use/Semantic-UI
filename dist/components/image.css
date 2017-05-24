@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.7-2 - Image
+ * # Semantic UI 2.2.7-3 - Image
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -47,7 +47,7 @@ img.ui.image {
 .ui.disabled.images,
 .ui.disabled.image {
   cursor: default;
-  opacity: 0.2;
+  opacity: 0.45;
 }
 
 

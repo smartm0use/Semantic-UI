@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.7-2 - Site
+ * # Semantic UI 2.2.7-3 - Site
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -13,6 +13,7 @@
              Page
 *******************************/
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,400italic,700italic&subset=latin');
 html,
 body {
   height: 100%;
@@ -57,7 +58,7 @@ h2 {
   font-size: 1.714rem;
 }
 h3 {
-  font-size: 1.286rem;
+  font-size: 1.28rem;
 }
 h4 {
   font-size: 1.071rem;
@@ -101,11 +102,11 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #4D7DAC;
+  color: #4183C4;
   text-decoration: none;
 }
 a:hover {
-  color: #2c6aa7;
+  color: #1e70bf;
   text-decoration: none;
 }
 
@@ -117,15 +118,15 @@ a:hover {
 
 /* Site */
 ::-webkit-selection {
-  background-color: #C7DFF6;
+  background-color: #CCE2FF;
   color: rgba(0, 0, 0, 0.87);
 }
 ::-moz-selection {
-  background-color: #C7DFF6;
+  background-color: #CCE2FF;
   color: rgba(0, 0, 0, 0.87);
 }
 ::selection {
-  background-color: #C7DFF6;
+  background-color: #CCE2FF;
   color: rgba(0, 0, 0, 0.87);
 }
 

@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.7-2 - Progress Bar
+ * # Semantic UI 2.2.7-3 - Progress Bar
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -414,7 +414,7 @@
 
 /* Blue */
 .ui.blue.progress .bar {
-  background-color: #6484A3;
+  background-color: #2185D0;
 }
 .ui.blue.inverted.progress .bar {
   background-color: #54C8FF;
