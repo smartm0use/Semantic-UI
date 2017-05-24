@@ -871,6 +871,9 @@ $.fn.dropdown = function(parameters) {
         },
 
         forceSelection: function() {
+          // We are using this only to clear the search input when
+          // clicking outside the dropdown menu, we don't need to select anything
+          // but the elements that have already been selected
           var
             $currentlySelected = $item.not(className.filtered).filter('.' + className.selected).eq(0),
             $activeItem        = $item.not(className.filtered).filter('.' + className.active).eq(0),
@@ -878,8 +881,11 @@ $.fn.dropdown = function(parameters) {
             hasSelected = ($selectedItem.length > 0)
           ;
           if(hasSelected) {
-            module.debug('Forcing partial selection to selected item', $selectedItem);
-            module.event.item.click.call($selectedItem, {}, true);
+            // This (in our usage) has no impact for the normal dropdown and introduce a
+            // bug when using useLabels=false
+
+            // module.debug('Forcing partial selection to selected item', $selectedItem);
+            // module.event.item.click.call($selectedItem, {}, true);
             return;
           }
           else {
