@@ -24,6 +24,7 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  overflow-y: scroll;
   min-width: 320px;
   background: #FFFFFF;
   font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
