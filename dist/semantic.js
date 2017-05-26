@@ -1,5 +1,5 @@
  /*
- * # Semantic UI - 2.2.7-3
+ * # Semantic UI - 2.2.7-4
  * https://github.com/Semantic-Org/Semantic-UI
  * http://www.semantic-ui.com/
  *
@@ -9,7 +9,7 @@
  *
  */
 /*!
- * # Semantic UI 2.2.7-3 - Site
+ * # Semantic UI 2.2.7-4 - Site
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -497,7 +497,7 @@ $.extend($.expr[ ":" ], {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.7-3 - Form Validation
+ * # Semantic UI 2.2.7-4 - Form Validation
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -2056,7 +2056,7 @@ $.fn.form.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.7-3 - Accordion
+ * # Semantic UI 2.2.7-4 - Accordion
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -2667,7 +2667,7 @@ $.extend( $.easing, {
 
 
 /*!
- * # Semantic UI 2.2.7-3 - Checkbox
+ * # Semantic UI 2.2.7-4 - Checkbox
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -3499,7 +3499,7 @@ $.fn.checkbox.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.7-3 - Dimmer
+ * # Semantic UI 2.2.7-4 - Dimmer
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -4208,7 +4208,7 @@ $.fn.dimmer.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.7-3 - Dropdown
+ * # Semantic UI 2.2.7-4 - Dropdown
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -5080,6 +5080,9 @@ $.fn.dropdown = function(parameters) {
         },
 
         forceSelection: function() {
+          // We are using this only to clear the search input when
+          // clicking outside the dropdown menu, we don't need to select anything
+          // but the elements that have already been selected
           var
             $currentlySelected = $item.not(className.filtered).filter('.' + className.selected).eq(0),
             $activeItem        = $item.not(className.filtered).filter('.' + className.active).eq(0),
@@ -5087,8 +5090,11 @@ $.fn.dropdown = function(parameters) {
             hasSelected = ($selectedItem.length > 0)
           ;
           if(hasSelected) {
-            module.debug('Forcing partial selection to selected item', $selectedItem);
-            module.event.item.click.call($selectedItem, {}, true);
+            // This (in our usage) has no impact for the normal dropdown and introduce a
+            // bug when using useLabels=false
+
+            // module.debug('Forcing partial selection to selected item', $selectedItem);
+            // module.event.item.click.call($selectedItem, {}, true);
             return;
           }
           else {
@@ -7951,7 +7957,7 @@ $.fn.dropdown.settings.templates = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.7-3 - Embed
+ * # Semantic UI 2.2.7-4 - Embed
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -8648,7 +8654,7 @@ $.fn.embed.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.7-3 - Modal
+ * # Semantic UI 2.2.7-4 - Modal
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -9562,7 +9568,7 @@ $.fn.modal.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.7-3 - Nag
+ * # Semantic UI 2.2.7-4 - Nag
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -10070,7 +10076,7 @@ $.extend( $.easing, {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.7-3 - Popup
+ * # Semantic UI 2.2.7-4 - Popup
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -11546,7 +11552,7 @@ $.fn.popup.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.7-3 - Progress
+ * # Semantic UI 2.2.7-4 - Progress
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -12478,7 +12484,7 @@ $.fn.progress.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.7-3 - Rating
+ * # Semantic UI 2.2.7-4 - Rating
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -12987,7 +12993,7 @@ $.fn.rating.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.7-3 - Search
+ * # Semantic UI 2.2.7-4 - Search
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -14397,7 +14403,7 @@ $.fn.search.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.7-3 - Shape
+ * # Semantic UI 2.2.7-4 - Shape
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -15319,7 +15325,7 @@ $.fn.shape.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.7-3 - Sidebar
+ * # Semantic UI 2.2.7-4 - Sidebar
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -16356,7 +16362,7 @@ $.fn.sidebar.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.7-3 - Sticky
+ * # Semantic UI 2.2.7-4 - Sticky
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -17299,7 +17305,7 @@ $.fn.sticky.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.7-3 - Tab
+ * # Semantic UI 2.2.7-4 - Tab
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -18246,7 +18252,7 @@ $.fn.tab.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.7-3 - Transition
+ * # Semantic UI 2.2.7-4 - Transition
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -19342,7 +19348,7 @@ $.fn.transition.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.7-3 - API
+ * # Semantic UI 2.2.7-4 - API
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -20510,7 +20516,7 @@ $.api.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.7-3 - State
+ * # Semantic UI 2.2.7-4 - State
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -21219,7 +21225,7 @@ $.fn.state.settings = {
 })( jQuery, window, document );
 
 /*!
- * # Semantic UI 2.2.7-3 - Visibility
+ * # Semantic UI 2.2.7-4 - Visibility
  * http://github.com/semantic-org/semantic-ui/
  *
  *

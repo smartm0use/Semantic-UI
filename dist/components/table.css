@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.7-3 - Table
+ * # Semantic UI 2.2.7-4 - Table
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -671,10 +671,10 @@
 
 /* Blue */
 .ui.blue.table {
-  border-top: 0.2em solid #2185D0;
+  border-top: 0.2em solid #6484A3;
 }
 .ui.inverted.blue.table {
-  background-color: #2185D0 !important;
+  background-color: #6484A3 !important;
   color: #FFFFFF !important;
 }
 

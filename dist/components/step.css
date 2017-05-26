@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.7-3 - Step
+ * # Semantic UI 2.2.7-4 - Step
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -358,7 +358,7 @@
   background: #F3F4F5;
 }
 .ui.steps .step.active .title {
-  color: #4183C4;
+  color: #4D7DAC;
 }
 .ui.ordered.steps .step.active:before,
 .ui.steps .active.step .icon {
