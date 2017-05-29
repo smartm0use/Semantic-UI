@@ -173,7 +173,7 @@
      Transitions
 --------------------*/
 
-@defaultDuration : 0.1s;
+@defaultDuration : 0.2s;
 @defaultEasing   : ease;
 
 /*-------------------
@@ -197,7 +197,7 @@
 @olive            : #B5CC18;
 @green            : #21BA45;
 @teal             : #00B5AD;
-@blue             : #6484A3;
+@blue             : #677389
 @violet           : #6435C9;
 @purple           : #A333C8;
 @pink             : #E03997;
@@ -212,12 +212,12 @@
 @lightOlive       : #D9E778;
 @lightGreen       : #2ECC40;
 @lightTeal        : #6DFFFF;
-@lightBlue        : #54C8FF;
+@lightBlue        : #C6D8FF;
 @lightViolet      : #A291FB;
 @lightPurple      : #DC73FF;
 @lightPink        : #FF8EDF;
 @lightBrown       : #D67C1C;
-@lightGrey        : #DCDDDE;
+@lightGrey        : #AFAFAF;
 @lightBlack       : #545454;
 
 /*---   Neutrals  ---*/
