@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.7-4.2 - Embed
+ * # Semantic UI 2.2.7-5 - Embed
  * http://github.com/semantic-org/semantic-ui/
  *
  *
