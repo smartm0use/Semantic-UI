@@ -585,7 +585,7 @@ select.ui.dropdown {
 /* Filtered Text */
 .ui.active.search.dropdown input.search:focus + .text .icon,
 .ui.active.search.dropdown input.search:focus + .text .flag {
-  opacity: 0.2;
+  opacity: 0.45;
 }
 .ui.active.search.dropdown input.search:focus + .text {
   color: rgba(115, 115, 115, 0.87) !important;
@@ -791,7 +791,7 @@ select.ui.dropdown {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   border-radius: 500rem;
-  border-color: #6484A3 transparent transparent;
+  border-color: #767676 transparent transparent;
   border-style: solid;
   border-width: 0.2em;
 }
@@ -923,7 +923,7 @@ select.ui.dropdown {
 .ui.dropdown .menu > .disabled.item {
   cursor: default;
   pointer-events: none;
-  opacity: 0.2;
+  opacity: 0.45;
 }
 
 

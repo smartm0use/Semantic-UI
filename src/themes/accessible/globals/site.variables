@@ -48,10 +48,10 @@
     Brand Colors
 --------------------*/
 
-@primaryColor        : @gray;
+@primaryColor        : @grey;
 @secondaryColor      : @black;
 
-@lightPrimaryColor   : @lightGray;
+@lightPrimaryColor   : @lightGrey;
 @lightSecondaryColor : @lightBlack;
 
 /*--------------
