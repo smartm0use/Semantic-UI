@@ -89,8 +89,8 @@
   text-transform: none;
   color: rgba(0, 0, 0, 0.87);
   font-weight: normal;
-  -webkit-transition: background 0.1s ease, box-shadow 0.1s ease, color 0.1s ease;
-  transition: background 0.1s ease, box-shadow 0.1s ease, color 0.1s ease;
+  -webkit-transition: background 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+  transition: background 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
 }
 .ui.menu > .item:first-child {
   border-radius: 0.28571429rem 0px 0px 0.28571429rem;
@@ -796,8 +796,8 @@ Floated Menu / Item
   padding: 0.78571429em 0.92857143em;
   margin: 0em 0.35714286em;
   background: none;
-  -webkit-transition: color 0.1s ease;
-  transition: color 0.1s ease;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
   border-radius: 0.28571429rem;
 }
 
@@ -919,8 +919,8 @@ Floated Menu / Item
   margin: 0em 0em -2px;
   padding: 0.85714286em 1.14285714em;
   border-bottom-width: 2px;
-  -webkit-transition: color 0.1s ease;
-  transition: color 0.1s ease;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
 }
 
 /* Item Types */
@@ -1039,8 +1039,8 @@ Floated Menu / Item
   padding: 0.35714286em 0.5em;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.6);
-  -webkit-transition: opacity 0.1s ease;
-  transition: opacity 0.1s ease;
+  -webkit-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
 }
 
 /* Border */
@@ -1804,8 +1804,8 @@ Floated Menu / Item
   border-bottom: 1px solid #D4D4D5;
   border-right: 1px solid #D4D4D5;
   z-index: 2;
-  -webkit-transition: background 0.1s ease;
-  transition: background 0.1s ease;
+  -webkit-transition: background 0.2s ease;
+  transition: background 0.2s ease;
 }
 .ui.vertical.pointing.menu .item:after {
   position: absolute;

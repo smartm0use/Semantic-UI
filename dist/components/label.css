@@ -26,8 +26,8 @@
   font-weight: bold;
   border: 0px solid transparent;
   border-radius: 0.28571429rem;
-  -webkit-transition: background 0.1s ease;
-  transition: background 0.1s ease;
+  -webkit-transition: background 0.2s ease;
+  transition: background 0.2s ease;
 }
 .ui.label:first-child {
   margin-left: 0em;
@@ -46,8 +46,8 @@ a.ui.label {
   cursor: pointer;
   color: inherit;
   opacity: 0.5;
-  -webkit-transition: 0.1s opacity ease;
-  transition: 0.1s opacity ease;
+  -webkit-transition: 0.2s opacity ease;
+  transition: 0.2s opacity ease;
 }
 .ui.label > a:hover {
   opacity: 1;
@@ -86,8 +86,8 @@ a.ui.label {
   margin-left: 0.5em;
   font-size: 0.92857143em;
   opacity: 0.5;
-  -webkit-transition: background 0.1s ease;
-  transition: background 0.1s ease;
+  -webkit-transition: background 0.2s ease;
+  transition: background 0.2s ease;
 }
 .ui.label > .delete.icon:hover {
   opacity: 1;
@@ -224,8 +224,8 @@ a.ui.label {
   width: 4em;
   height: 4em;
   z-index: 1;
-  -webkit-transition: border-color 0.1s ease;
-  transition: border-color 0.1s ease;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
 }
 
 /* Icon Label */
@@ -246,8 +246,8 @@ a.ui.label {
   border-bottom: 4em solid transparent;
   border-left: 0em solid transparent;
   border-right-color: inherit;
-  -webkit-transition: border-color 0.1s ease;
-  transition: border-color 0.1s ease;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
 }
 .ui.corner.label .icon {
   cursor: default;
@@ -1052,7 +1052,7 @@ a.ui.basic.black.label:hover {
 a.ui.basic.label:hover {
   text-decoration: none;
   background: none #FFFFFF;
-  color: #1e70bf;
+  color: #2c6aa7;
   box-shadow: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: none;
 }
@@ -1144,8 +1144,8 @@ a.ui.basic.label:hover {
   z-index: 2;
   width: 0.6666em;
   height: 0.6666em;
-  -webkit-transition: background 0.1s ease;
-  transition: background 0.1s ease;
+  -webkit-transition: background 0.2s ease;
+  transition: background 0.2s ease;
 }
 
 /*--- Above ---*/

@@ -137,7 +137,7 @@ h2.ui.header {
   font-size: 1.714rem;
 }
 h3.ui.header {
-  font-size: 1.28rem;
+  font-size: 1.286rem;
 }
 h4.ui.header {
   font-size: 1.071rem;
@@ -175,7 +175,7 @@ h5.ui.header .sub.header {
   font-size: 1.714em;
 }
 .ui.medium.header {
-  font-size: 1.28em;
+  font-size: 1.286em;
 }
 .ui.small.header {
   font-size: 1.071em;
@@ -281,7 +281,7 @@ h5.ui.header .sub.header {
 *******************************/
 
 .ui.disabled.header {
-  opacity: 0.45;
+  opacity: 0.2;
 }
 
 
@@ -454,10 +454,10 @@ a.ui.blue.header:hover {
 
 /* Inverted */
 .ui.inverted.blue.header {
-  color: #54C8FF !important;
+  color: #C6D8FF !important;
 }
 a.ui.inverted.blue.header:hover {
-  color: #3ac0ff !important;
+  color: #acc7ff !important;
 }
 
 /*--- Violet ---*/
@@ -554,10 +554,10 @@ a.ui.grey.header:hover {
 
 /* Inverted */
 .ui.inverted.grey.header {
-  color: #DCDDDE !important;
+  color: #AFAFAF !important;
 }
 a.ui.inverted.grey.header:hover {
-  color: #cfd0d2 !important;
+  color: #a2a2a2 !important;
 }
 
 /*-------------------
@@ -705,7 +705,7 @@ a.ui.inverted.grey.header:hover {
 --------------------*/
 
 .ui.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
-  font-size: 1.28em;
+  font-size: 1.286em;
 }
 
 

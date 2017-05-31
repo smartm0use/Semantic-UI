@@ -99,8 +99,8 @@ ol.ui.list ol li,
   padding-top: 0.07142857em;
   padding-right: 0.28571429em;
   vertical-align: top;
-  -webkit-transition: color 0.1s ease;
-  transition: color 0.1s ease;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
 }
 .ui.list .list > .item > .ifix.icon:only-child,
 .ui.list > .item > .ifix.icon:only-child {
@@ -181,11 +181,11 @@ ol.ui.list ol li,
 .ui.list .list > a.item,
 .ui.list > a.item {
   cursor: pointer;
-  color: #4183C4;
+  color: #4D7DAC;
 }
 .ui.list .list > a.item:hover,
 .ui.list > a.item:hover {
-  color: #1e70bf;
+  color: #2c6aa7;
 }
 
 /* Linked Item Icons */
@@ -198,11 +198,11 @@ ol.ui.list ol li,
 .ui.list .list > .item a.header,
 .ui.list > .item a.header {
   cursor: pointer;
-  color: #4183C4 !important;
+  color: #4D7DAC !important;
 }
 .ui.list .list > .item a.header:hover,
 .ui.list > .item a.header:hover {
-  color: #1e70bf !important;
+  color: #2c6aa7 !important;
 }
 
 /* Floated Content */
@@ -366,7 +366,7 @@ ol.ui.list ol li,
 }
 .ui.inverted.list .list > a.item:hover,
 .ui.inverted.list > a.item:hover {
-  color: #1e70bf;
+  color: #2c6aa7;
 }
 
 /* Linking Content */
@@ -374,7 +374,7 @@ ol.ui.list ol li,
   color: rgba(255, 255, 255, 0.9) !important;
 }
 .ui.inverted.list .item a:not(.ui):hover {
-  color: #1e70bf !important;
+  color: #2c6aa7 !important;
 }
 
 /*-------------------
@@ -405,8 +405,8 @@ ol.ui.list ol li,
 .ui.link.list a.item,
 .ui.link.list .item a:not(.ui) {
   color: rgba(0, 0, 0, 0.4);
-  -webkit-transition: 0.1s color ease;
-  transition: 0.1s color ease;
+  -webkit-transition: 0.2s color ease;
+  transition: 0.2s color ease;
 }
 .ui.link.list a.item:hover,
 .ui.link.list .item a:not(.ui):hover {
@@ -452,8 +452,8 @@ ol.ui.list ol li,
   margin: 0em;
   color: rgba(0, 0, 0, 0.4);
   border-radius: 0.5em;
-  -webkit-transition: 0.1s color ease, 0.1s padding-left ease, 0.1s background-color ease;
-  transition: 0.1s color ease, 0.1s padding-left ease, 0.1s background-color ease;
+  -webkit-transition: 0.2s color ease, 0.2s padding-left ease, 0.2s background-color ease;
+  transition: 0.2s color ease, 0.2s padding-left ease, 0.2s background-color ease;
 }
 .ui.selection.list .list > .item:last-child,
 .ui.selection.list > .item:last-child {

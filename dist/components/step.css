@@ -76,8 +76,8 @@
   border-radius: 0em;
   border: none;
   border-right: 1px solid rgba(34, 36, 38, 0.15);
-  -webkit-transition: background-color 0.1s ease, opacity 0.1s ease, color 0.1s ease, box-shadow 0.1s ease;
-  transition: background-color 0.1s ease, opacity 0.1s ease, color 0.1s ease, box-shadow 0.1s ease;
+  -webkit-transition: background-color 0.2s ease, opacity 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+  transition: background-color 0.2s ease, opacity 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 }
 
 /* Arrow */
@@ -95,8 +95,8 @@
   border-style: solid;
   border-color: rgba(34, 36, 38, 0.15);
   border-width: 0px 1px 1px 0px;
-  -webkit-transition: background-color 0.1s ease, opacity 0.1s ease, color 0.1s ease, box-shadow 0.1s ease;
-  transition: background-color 0.1s ease, opacity 0.1s ease, color 0.1s ease, box-shadow 0.1s ease;
+  -webkit-transition: background-color 0.2s ease, opacity 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+  transition: background-color 0.2s ease, opacity 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
   -webkit-transform: translateY(-50%) translateX(50%) rotate(-45deg);
           transform: translateY(-50%) translateX(50%) rotate(-45deg);
 }
@@ -358,7 +358,7 @@
   background: #F3F4F5;
 }
 .ui.steps .step.active .title {
-  color: #4183C4;
+  color: #4D7DAC;
 }
 .ui.ordered.steps .step.active:before,
 .ui.steps .active.step .icon {
@@ -385,7 +385,7 @@
 .ui.steps a.active.step:hover::after,
 .ui.steps a.active.step:hover {
   cursor: pointer;
-  background: #DCDDDE;
+  background: #AFAFAF;
   color: rgba(0, 0, 0, 0.87);
 }
 

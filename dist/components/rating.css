@@ -37,8 +37,8 @@
   cursor: pointer;
   width: 1.25em;
   height: auto;
-  -webkit-transition: opacity 0.1s ease, background 0.1s ease, text-shadow 0.1s ease, color 0.1s ease;
-  transition: opacity 0.1s ease, background 0.1s ease, text-shadow 0.1s ease, color 0.1s ease;
+  -webkit-transition: opacity 0.2s ease, background 0.2s ease, text-shadow 0.2s ease, color 0.2s ease;
+  transition: opacity 0.2s ease, background 0.2s ease, text-shadow 0.2s ease, color 0.2s ease;
 }
 
 

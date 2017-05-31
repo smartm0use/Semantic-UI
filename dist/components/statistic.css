@@ -423,7 +423,7 @@
 .ui.inverted.blue.statistics .statistic > .value,
 .ui.statistics .inverted.blue.statistic > .value,
 .ui.inverted.blue.statistic > .value {
-  color: #54C8FF;
+  color: #C6D8FF;
 }
 .ui.inverted.violet.statistics .statistic > .value,
 .ui.statistics .inverted.violet.statistic > .value,
@@ -448,7 +448,7 @@
 .ui.inverted.grey.statistics .statistic > .value,
 .ui.statistics .inverted.grey.statistic > .value,
 .ui.inverted.grey.statistic > .value {
-  color: #DCDDDE;
+  color: #AFAFAF;
 }
 
 /*--------------
