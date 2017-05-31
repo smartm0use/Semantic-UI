@@ -295,14 +295,14 @@
 
 /* Blue */
 .ifix.blue.icon {
-  color: #2185D0 !important;
+  color: #677389 !important;
 }
 .ifix.inverted.blue.icon {
   color: #C6D8FF !important;
 }
 .ifix.inverted.bordered.blue.icon,
 .ifix.inverted.circular.blue.icon {
-  background-color: #2185D0 !important;
+  background-color: #677389 !important;
   color: #FFFFFF !important;
 }
 
